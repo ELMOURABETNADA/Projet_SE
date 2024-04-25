@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Vérification si les champs ne sont pas vides
     if (!empty($prenom) && !empty($nom)) {
         // Affichage du message de salutation
-        echo "<h3>Bonjour, $prenom $nom !</h3>";
+        echo "<h3>Salut, $prenom $nom !</h3>";
     } else {
         // Affichage d'un message d'erreur si les champs sont vides
         echo "<p>Veuillez remplir tous les champs du formulaire.</p>";
